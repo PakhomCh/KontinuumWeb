@@ -1,0 +1,196 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Континуум</title>
+		<link rel="icon" href="{% static 'ascention/icon.ico' %}" sizes="any">
+		<link rel="stylesheet" href="{% static 'ascention/style.css' %}">
+        <link rel="stylesheet" href="{% static 'ascention/slider.css' %}">
+        <script src="{% static 'ascention/slider.js' %}" defer></script>
+	
+	</head>
+	
+	<body>
+        
+		<div class="layer">
+
+            <div class="masterhead">
+
+                <div class="blockhead">
+
+                    <div class="itemhead">
+
+                        <a href="home">
+
+                            <img src="{% static 'ascention/logo.svg' %}" alt="КОНТИНУУМ">
+
+                        </a>
+
+                    </div>
+
+                    <div class="itemhead">
+
+                        <a href="home">
+                            
+                            <img src="{% static 'ascention/games.svg' %}" alt="ИГРЫ">
+
+                        </a>
+
+                    </div>
+
+                    <div class="itemhead">
+
+                        <a href="home">
+                            
+                            <img src="{% static 'ascention/books.svg' %}" alt="КНИГИ">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="blockhead">
+
+                    <div class="itemhead">
+
+                        <a href="home">
+
+                            <img src="{% static 'ascention/register.svg' %}" alt="РЕГИСТРАЦИЯ">
+
+                        </a>
+
+                    </div>
+
+                    <div class="itemhead">
+
+                        <a href="login.html">
+
+                            <img src="{% static 'ascention/login.svg' %}" alt="ВХОД">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="itc-slider" data-slider="itc-slider" data-autoplay="true" data-interval="7000">
+
+                <div class="itc-slider__wrapper">
+
+                    <div class="itc-slider__items">
+
+                        <div class="itc-slider__item">
+
+                            <div class="contentitem" style="background-image: url({% static 'ascention/dragons.png' %});">
+
+                                <img src="{% static 'ascention/dragons.svg' %}">
+
+                                <div class="context">Возглавьте одну из восьми могущественных фракций и сразитесь за сокровища неизведанных земель!</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="itc-slider__item">
+
+                            <div class="contentitem" style="background-image: url({% static 'ascention/ascent.png' %});">
+                                
+                                <img src="{% static 'ascention/ascent.svg' %}">
+
+                                <div class="context">Нанимайте могущественные отряды, проводите древние ритуалы, воссоздавайте реликвии прошлого! Победа на поле боя будет за вами.</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="itc-slider__item">
+
+                            <div class="contentitem" style="background-image: url({% static 'ascention/dust.png' %});">
+                                
+                                <img src="{% static 'ascention/dust.svg' %}">
+
+                                <div class="context">Роман о судьбах оскорбленных богов, коварных лжецов и беспомощных смертных.</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <button class="itc-slider__btn itc-slider__btn_prev"></button>
+                <button class="itc-slider__btn itc-slider__btn_next"></button>
+
+            </div>
+
+            <div class="masterbottom">
+
+                <div class="blockbottom">
+
+                    <div class="itemhead">
+
+                        <a href="home">
+
+                            <img src="{% static 'ascention/logo_short.svg' %}">
+
+                        </a>
+
+                    </div>
+
+                    <div class="itemhead">
+
+                        <a href="https://vk.com/kontinuum_official">
+
+                            <img src="{% static 'ascention/vk.svg' %}">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="itemhead">
+
+                    <a href="home">
+
+                        <img src="{% static 'ascention/policy.svg' %}">
+
+                    </a>
+
+                </div>
+
+                <div class="itemhead">
+
+                    <a href="home">
+
+                        <img src="{% static 'ascention/agreements.svg' %}">
+
+                    </a>
+
+                </div>
+
+                <div class="itemhead">
+
+                    <a href="home">
+
+                        <img src="{% static 'ascention/terms.svg' %}">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+	</body>
+
+</html>
